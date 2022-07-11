@@ -2,6 +2,8 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
+load_nvm > /dev/stderr
+
 set -gx EDITOR /usr/bin/nvim
 set -x FZF_DEFAULT_OPTS " \
          --multi --cycle --keep-right -1 \
