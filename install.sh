@@ -4,6 +4,7 @@ stow -t "$HOME" nvim
 stow -t "$HOME" tmux
 stow -t "$HOME" fish
 stow -t "$HOME" alacritty
+stow -t "$HOME" sway
 
 # https://github.com/nvm-sh/nvm#manual-install
 export NVM_DIR="$HOME/.nvm" && (
